@@ -16,18 +16,18 @@ Exception handling statements|	throw, try-catch, try-finally try-catch-finally|
 ## 2. try Statements and Exceptions 
 A try statement specifies a code block subject to error-handling or cleanup code. The try block must be followed by a catch block, a finally block, or both. The catch block executes when an error occurs in the try block. The finally block executes after execution leaves the try block (or if present, the catch block), to perform cleanup code, whether or not an error occurred. 
 
-A try statement looks like this:
+A try statement looks like this:<br>
 
-try {  ... // exception may get thrown within execution of this block 
+try {  ... // exception may get thrown within execution of this block <br>
 } 
-catch (ExceptionA ex) { 
-     ... // handle exception of type ExceptionA 
+catch (ExceptionA ex) { <br>
+     ... // handle exception of type ExceptionA <br>
      } 
-catch (ExceptionB ex) {
-      ... // handle exception of type ExceptionB
+catch (ExceptionB ex) {<br>
+      ... // handle exception of type ExceptionB<br>
        } 
-finally { 
-     ... // cleanup code 
+finally { <br>
+     ... // cleanup code <br>
      }
 
 
