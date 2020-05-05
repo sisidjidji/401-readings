@@ -7,6 +7,7 @@ my name is SIHEM , i am 35 years old, i am a mom of two kids LOUISA and RAMZI,i 
 Below are the links to all the learning journals:
 
 * [READ01:Exception Handling & Debugging](https://github.com/sisidjidji/401-readings/blob/master/README1.MD) .
+* [READ02:Unit Tests & Documentation](https://github.com/sisidjidji/401-readings/blob/master/README2.MD) .
 
 
 
