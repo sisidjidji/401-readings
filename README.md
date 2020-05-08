@@ -10,6 +10,7 @@ Below are the links to all the learning journals:
 * [READ02:Unit Tests & Documentation](https://github.com/sisidjidji/401-readings/blob/master/README2.MD) .
 * [READ03:System.I.O](https://github.com/sisidjidji/401-readings/blob/master/README3.MD) .
 * [READ04:Classes & Objects](https://github.com/sisidjidji/401-readings/blob/master/README4.MD) .
+* [READ05:Linked Lists](https://github.com/sisidjidji/401-readings/blob/master/README5.MD) .
 
 
 
