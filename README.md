@@ -11,6 +11,7 @@ Below are the links to all the learning journals:
 * [READ03:System.I.O](https://github.com/sisidjidji/401-readings/blob/master/README3.MD) .
 * [READ04:Classes & Objects](https://github.com/sisidjidji/401-readings/blob/master/README4.MD) .
 * [READ05:Linked Lists](https://github.com/sisidjidji/401-readings/blob/master/README5.MD) .
+* [READ05:REVIEW](https://github.com/sisidjidji/401-readings/blob/master/README6.MD) .
 
 
 
