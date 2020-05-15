@@ -15,6 +15,7 @@ Below are the links to all the learning journals:
 * [READ07:OOP](https://github.com/sisidjidji/401-readings/blob/master/README7.MD) .
 * [READ08:Interfaces](https://github.com/sisidjidji/401-readings/blob/master/README08.MD) .
 * [READ09:LINQ](https://github.com/sisidjidji/401-readings/blob/master/README09.MD) .
+* [READ010:Stacks and Queues](https://github.com/sisidjidji/401-readings/blob/master/README10.MD) .
 
 
 
