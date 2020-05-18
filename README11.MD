@@ -9,7 +9,7 @@ A database schema is a visual and logical architecture of a database created on 
 It provides a graphical view of the entire database architecture and structure. It provides a means for logically grouping and displaying database objects such as tables, fields, functions and relations.
 
 ## 3. What do they look like?
-![Schema](C:\Users\sazib\Desktop\401-readings\images\schema.png)
+![Schema](/images/schema.png)
 
 
 ## 4.What is a Primary Key?
