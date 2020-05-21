@@ -18,6 +18,7 @@ Below are the links to all the learning journals:
 * [READ010:Stacks and Queues](https://github.com/sisidjidji/401-readings/blob/master/README10.MD) .
 * [READ011:Date bases ](https://github.com/sisidjidji/401-readings/blob/master/README11.MD) .
 * [READ013:web app ](https://github.com/sisidjidji/401-readings/blob/master/README13.MD) .
+* [READ014: Data Seeding ](https://github.com/sisidjidji/401-readings/blob/master/README14.MD) .
 
 
 
