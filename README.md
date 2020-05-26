@@ -21,7 +21,7 @@ Below are the links to all the learning journals:
 * [READ013:web app ](https://github.com/sisidjidji/401-readings/blob/master/README13.MD) .
 * [READ014: Data Seeding ](https://github.com/sisidjidji/401-readings/blob/master/README14.MD) .
 * [READ015: Trees ](https://github.com/sisidjidji/401-readings/blob/master/README15.MD) .
-
+* [READ016: Dependency Injection ](https://github.com/sisidjidji/401-readings/blob/master/README16.MD) .
 
 
 ## Cheat Sheet EMOJI
