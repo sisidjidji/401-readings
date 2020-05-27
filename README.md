@@ -24,6 +24,7 @@ Below are the links to all the learning journals:
 * [READ016: Dependency Injection ](https://github.com/sisidjidji/401-readings/blob/master/README16.MD) .
 
 * [READ017: Views ](https://github.com/sisidjidji/401-readings/blob/master/README17.MD) .
+* [READ018: Views ](https://github.com/sisidjidji/401-readings/blob/master/README17.MD) .
 
 
 ## Cheat Sheet EMOJI
