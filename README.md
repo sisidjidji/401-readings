@@ -23,6 +23,8 @@ Below are the links to all the learning journals:
 * [READ015: Trees ](https://github.com/sisidjidji/401-readings/blob/master/README15.MD) .
 * [READ016: Dependency Injection ](https://github.com/sisidjidji/401-readings/blob/master/README16.MD) .
 
+* [READ017: Views ](https://github.com/sisidjidji/401-readings/blob/master/README17.MD) .
+
 
 ## Cheat Sheet EMOJI
 
