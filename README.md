@@ -25,6 +25,7 @@ Below are the links to all the learning journals:
 
 * [READ017: Refactoring with DTOs ](https://github.com/sisidjidji/401-readings/blob/master/README17.MD) .
 * [READ018: Views ](https://github.com/sisidjidji/401-readings/blob/master/README18.MD) .
+* [READ019: calling an API ](https://github.com/sisidjidji/401-readings/blob/master/README19.MD) .
 
 
 ## Cheat Sheet EMOJI
