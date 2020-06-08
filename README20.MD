@@ -12,6 +12,6 @@ Create an ASP.NET Core Web Application project with Individual User Accounts.
 
 - The generated project provides ASP.NET Core Identity as a Razor Class Library. The Identity Razor Class Library exposes endpoints with the Identity area. For example:
 
-/Identity/Account/Login
-/Identity/Account/Logout
-/Identity/Account/Manage
+* /Identity/Account/Login
+* /Identity/Account/Logout
+* /Identity/Account/Manage
