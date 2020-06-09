@@ -42,31 +42,31 @@ ClockSkew = TimeSpan.Zero
 
 4.  A further step is to change in the appsettings.json with required details for JWT authentication scheme,
 
-5. The next step is to make an authentication service available to the application to do this we need a call app.UseAuthentication in Configure() method,
+5. The next step is to make an authentication service available to the application to do this we need a call app.UseAuthentication in Configure() method,<br>
 
-public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+public void Configure(IApplicationBuilder app, IWebHostEnvironment env) <br>
+{<br>
+if (env.IsDevelopment())<br>
 {
-if (env.IsDevelopment())
-{
-app.UseDeveloperExceptionPage();
+app.UseDeveloperExceptionPage();<br>
 }
-app.UseHttpsRedirection();
-app.UseRouting();
-app.UseAuthentication();
-app.UseAuthorization();
-app.UseEndpoints(endpoints =>
-{
-endpoints.MapControllers();
-});
-}
+app.UseHttpsRedirection();<br>
+app.UseRouting();<br>
+app.UseAuthentication();<br>
+app.UseAuthorization();<br>
+app.UseEndpoints(endpoints =><br>
+{<br>
+endpoints.MapControllers();<br>
+});<br>
+}<br>
 
-6. Update Startup.cs file ConfigureService() method to add authorization code,
+6. Update Startup.cs file ConfigureService() method to add authorization code,<br>
 
-services.AddAuthorization(config =>
-{
-config.AddPolicy(Policies.Admin, Policies.AdminPolicy());
-config.AddPolicy(Policies.User, Policies.UserPolicy());
-});
+services.AddAuthorization(config =><br>
+{<br>
+config.AddPolicy(Policies.Admin, Policies.AdminPolicy());<br>
+config.AddPolicy(Policies.User, Policies.UserPolicy());<br>
+});<br>
 
 7. Generate JSON Web Token
 
