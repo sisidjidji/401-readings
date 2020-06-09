@@ -20,25 +20,25 @@ Visual Studio -> Create New Project -> Asp.Net Core Web application -> Select We
 2. Install required a package of JWT from NuGet Package:
 Right-click on project -> Manage NuGet package -> On browse section search for (Microsoft.AspNetCore.Authentication.JwtBearer) -> install.
 
-3. Update Startup.cs ConfigureService() to register JWT authentication scheme,
+3. Update Startup.cs ConfigureService() to register JWT authentication scheme,<br>
 
-services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-.AddJwtBearer(options =>
-{
-options.RequireHttpsMetadata = false;
-options.SaveToken = true;
-options.TokenValidationParameters = new TokenValidationParameters
-{
-ValidateIssuer = true,
-ValidateAudience = true,
-ValidateLifetime = true,
-ValidateIssuerSigningKey = true,
-ValidIssuer = Configuration[“Jwt:Issuer”],
-ValidAudience = Configuration[“Jwt:Audience”],
-IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration[“Jwt:SecretKey”])),
-ClockSkew = TimeSpan.Zero
-};
-});
+services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)<br>
+.AddJwtBearer(options =><br>
+{<br>
+options.RequireHttpsMetadata = false;<br>
+options.SaveToken = true;<br>
+options.TokenValidationParameters = new TokenValidationParameters<br>
+{<br>
+ValidateIssuer = true,<br>
+ValidateAudience = true,<br>
+ValidateLifetime = true,<br>
+ValidateIssuerSigningKey = true,<br>
+ValidIssuer = Configuration[“Jwt:Issuer”],<br>
+ValidAudience = Configuration[“Jwt:Audience”],<br>
+IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration[“Jwt:SecretKey”])),<br>
+ClockSkew = TimeSpan.Zero<br>
+};<br>
+});<br>
 
 4.  A further step is to change in the appsettings.json with required details for JWT authentication scheme,
 
