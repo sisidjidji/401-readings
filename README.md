@@ -27,7 +27,8 @@ Below are the links to all the learning journals:
 * [READ018: Views ](https://github.com/sisidjidji/401-readings/blob/master/README18.MD) .
 * [READ019: calling an API ](https://github.com/sisidjidji/401-readings/blob/master/README19.MD) .
 * [READ020: Intro to Identity ](https://github.com/sisidjidji/401-readings/blob/master/README20.MD) .
-* [READ021:  Authentication ](https://github.com/sisidjidji/401-readings/blob/master/README21.MD) .
+* [READ021: Authentication ](https://github.com/sisidjidji/401-readings/blob/master/README21.MD) .
+* [READ021: Policies ](https://github.com/sisidjidji/401-readings/blob/master/README22.MD) .
 
 
 ## Cheat Sheet EMOJI
